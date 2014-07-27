@@ -1,0 +1,116 @@
+Answer these below Questions:
+
+
+
+
+What jdk contains or composed of and define each components?
+
+Ans. Jdk contains JVM which is java virtual machine, API is Java platform which has in build classes and supporting files.
+
+What is IDE?
+
+Ans. IDE is a software application which enables users to more easily write and debug Java programs.
+
+What are the IDEs available in the market to support java?
+
+Ans. Eclips, Intellije idea, blueJ, Jcreator etc.
+
+Explain the entire java life cycle.
+
+Ans. Writing code in a text editor, its call source code and ends with .java. then loading the code in the java compiler then java compile creates the bytecode. Then this can be use by the JVM to run it.Then it can be use by the computer operation system.
+
+what is class?
+Ans.A class can be defined as a template/blue print that describes the behaviors/states that object of its type support.
+
+What is object?
+Ans. Object is a instance of a class.
+
+What is the entry point of an application?
+Ans. Main(): program start 
+Init(): applet start
+Run(): thread start
+
+Why main is static?
+Ans. The main method is static because otherwise there would be ambiguity. Like how to use the constructor.
+
+What is the difference between an Interface and Abstract class?
+
+Ans. Main difference is methods of a Java interface are implicitly abstract and cannot have implementations. A Java abstract class can have instance methods that implements a default behavior.
+
+Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
+
+Ans. We cant make object from interface and abstract class. We need a concrete class which can make object and this class will extands and implimanted fron other two classes.
+
+what is Access Specifier?
+Ans. Access modifiers specifies who can access them. There are four access modifiers used in java. They are public, private, protected and no modifer
+
+What is OOP ? Define each feature of java OOP.
+
+Ans. OPP- Object Oriented Programing.
+Features: Polymorphis, encapsulation, inheritance and abstraction.
+Inheritance: It is the process where one object acquires the properties of another. With the use of inheritance the information is made manageable in a hierarchical order. Two main keywords for Inheritance is Extends and Implements.
+Polymorphis: Is is the characteristic of being able to assign a different meaning or usage to something in different contexts - specifically, to allow an entity such as a variable, a functions, or an objects to have more than one form. Over riding and overloading is two kind of polymorphis.
+Encapsulation: it is the packing of data and functions into a single component. The features of encapsulation are supported using classes. It allows selective hiding of properties and methods in a class.
+Abstraction: it is the process of  is abstraction of java used to hide certain details and only show the essential features of the object.
+
+What is API? Name list of API that you have used so far.
+
+Ans. The Java API(application program interface) is the set of classes included with the Java Development Environment. These classes are written using the Java language and run on the JVM. The Java API includes everything from collection classes.
+Name of the API: buffer reader, file reader, scanner, string, ioexception, random class and many more.
+
+Does java support multiple inheritance?
+
+Ans. No.
+
+What is method overloading and when it happens?
+Ans. Overloading is similar kind of methods use multiple time. It happens in compile time.
+
+What is method overriding and when it happens?
+
+Ans. Overloading is the similar kind of method but use different algorithm and it gives a different value. It happens in run time.
+
+Explain exceptions in java and how to handle it.
+
+Ans. Exception handling is a block to catch error. It try the code and then catch the error.
+
+What is static keyword in java? How it has been used in variables and methods ?
+
+Ans. a static variable is a variable that has been allocated statically—whose lifetime or "extent" extends across the entire run of the program. This is in contrast to the more ephemeral automatic variables (local variables are generally automatic), whose storage is allocated and deallocated on the call  stack; and in contrast to objects whose storage is dynamically allocated in heap memory
+
+What is final and how it has been used variables and methods?
+
+Ans. Final is key word in java. By using final we can’t change the value or method. Also if we use it before class it will not allow to extends or implements to other classes.
+
+What is final, finally and finalize?
+
+Ans. Final stops changing any value, finally use in try catch block and finalize use to close any connection.
+
+What is a constructor ?
+
+Ans. Constructors are similar to methods, but with some important differences. When we create a new instance (a new object) of a class using the new keyword, a constructor for that class is called. Constructors are used to initialize the instance variables (fields) of an object. A constructors must have the same name as the class its in.
+
+What is "this" keyword in java ?
+
+Ans. The this keyword refers to the current instance of the class and is also used as a modifier of the first parameter of an extension method.
+
+What is JVM stand for ?
+
+Ans. Java Virtual Machine.
+
+What version of java are you using?
+Ans. Version 8.1
+
+What is JAR stand for ?
+Ans. Java Archive.
+
+What is compile time and run time?
+
+Ans. compile time refers to the operations performed by a compile
+Compile time give you syntax error, type checking error
+runtime may refer to the period during which a computer program is executing
+
+
+What is heap?
+
+Ans. a heap is a specialized tree-based data structure that satisfies the heap property: If A is a parent node of B then the key of node A is ordered with respect to the key of node B with the same ordering applying across the heap.
+

@@ -48,9 +48,11 @@ public class XmlReader {
 						student.lastName = content;
 						break;
 					case "score":
-						student.score= int score1;
+						student.score= contend.void changingScoreToString1(int score1) {
+						}
 							
-						int score1
+						
+							
 						}
 		
 						
@@ -61,12 +63,11 @@ public class XmlReader {
 				
 			list.add(student);
 			
-		}
+		
 		
 		}
 		
-	
-	return list;		
+	return list;
   }
 	
 	}
